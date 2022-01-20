@@ -1,0 +1,30 @@
+{
+    "name": "usdv-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "solhint": "solhint 'contracts/**/*.sol'",
+        "lint": "prettier --write contracts/*.sol contracts/**/*.sol"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.4.2",
+        "prettier": "^2.5.1",
+        "prettier-plugin-solidity": "^1.0.0-beta.19",
+        "solhint": "^3.3.6"
+    }
+}
