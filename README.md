@@ -1,5 +1,7 @@
 # usdv-fuzz
 
+Fuzz USDV contract
+
 ```shell
 git clone --recursive git@github.com:vetherasset/usdv-fuzz.git
 
